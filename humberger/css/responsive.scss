@@ -1,0 +1,84 @@
+@media screen and (max-width: 900px) {
+    main {
+        width: 100%;
+
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 60px;
+        }
+    }
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+.header {
+    padding: 25px 0 0 25px;
+
+    .title {
+        width: 120px;
+        padding: 0;
+    }
+}
+
+/* ハンバーガーメニューのナビゲーション */
+#hamburger-navigation {
+    img {
+        width: 120px;
+        top: 25px;
+        left: 25px;
+    }
+    .sections {
+        margin-top: 110px;
+
+        a{
+            margin-top: 110px;
+            font-size: 16px;
+        }
+    }
+}
+
+ /* ハンバーガ―メニュー */
+.hamburger-menu {
+    width: 56px;
+    height: 56px;
+    margin: 0 25px 0 0;
+
+    span {
+        width: 35px;
+        left: 10px;
+
+        &:nth-child(1) {
+            top: 16px;
+        }
+        &:nth-child(2) {
+            top: 27px;
+        }
+        &:nth-child(3) {
+            top: 38px;
+        }
+    }
+
+    &.active span:nth-child(1) {
+        top: 27px;
+        left: 10px;
+    }
+    &.active span:nth-child(2),
+    &.active span:nth-child(3) {
+        top: 27px;
+    }
+}
+
+/*-------------------------------------------
+Works
+-------------------------------------------*/
+#works {
+    margin-bottom: 60%;
+}
+
+/*-------------------------------------------
+Footer
+-------------------------------------------*/
+#footer p {
+    font-size: 12px;
+}
+}

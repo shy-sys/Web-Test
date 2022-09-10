@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@media screen and (max-width: 900px) {
+  main {
+    width: 100%;
+  }
+  main .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+  }
+  /*-------------------------------------------
+  ヘッダー
+  -------------------------------------------*/
+  .header {
+    padding: 25px 0 0 25px;
+  }
+  .header .title {
+    width: 120px;
+    padding: 0;
+  }
+  /* ハンバーガーメニューのナビゲーション */
+  #hamburger-navigation img {
+    width: 120px;
+    top: 25px;
+    left: 25px;
+  }
+  #hamburger-navigation .sections {
+    margin-top: 110px;
+  }
+  #hamburger-navigation .sections a {
+    margin-top: 110px;
+    font-size: 16px;
+  }
+  /* ハンバーガ―メニュー */
+  .hamburger-menu {
+    width: 56px;
+    height: 56px;
+    margin: 0 25px 0 0;
+  }
+  .hamburger-menu span {
+    width: 35px;
+    left: 10px;
+  }
+  .hamburger-menu span:nth-child(1) {
+    top: 16px;
+  }
+  .hamburger-menu span:nth-child(2) {
+    top: 27px;
+  }
+  .hamburger-menu span:nth-child(3) {
+    top: 38px;
+  }
+  .hamburger-menu.active span:nth-child(1) {
+    top: 27px;
+    left: 10px;
+  }
+  .hamburger-menu.active span:nth-child(2), .hamburger-menu.active span:nth-child(3) {
+    top: 27px;
+  }
+  /*-------------------------------------------
+  Works
+  -------------------------------------------*/
+  #works {
+    margin-bottom: 60%;
+  }
+  /*-------------------------------------------
+  Footer
+  -------------------------------------------*/
+  #footer p {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
